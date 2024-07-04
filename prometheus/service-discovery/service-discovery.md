@@ -89,7 +89,7 @@ scrape_configs:
   - job_name: 'file_sd'
     file_sd_configs:
       - files:
-        - '/etc/prometheus/file_sd/*.yml' # Using * so that in future we just keep adding our target files in the `/etc/prometheus/file_sd/` directory.
+        - '/etc/prometheus/file_sd/*.yml' # Using *, so that in future we just keep adding our target files in the `/etc/prometheus/file_sd/` directory.
 ```
 
 In order to apply the changes, we need to restart the Prometheus server.
