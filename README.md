@@ -3,7 +3,7 @@
 This repository contains the notes I have taken while studying the observability tools like Prometheus, Grafana, Loki, and OpenTelemetry. The notes are taken from the official documentation, Blogs, and some other resources. Use this repository as a reference guide for your study, Don't use this as a primary source of study. You can get some Hands-on experience by folloeing my Blogs and Github repositories mentioned in the Project section. You can also contribute to this repository by adding more notes or by correcting the existing notes.
 
 <p align="center">
-    <img src="https://github.com/mathesh-me/monitoring-study-guide/assets/144098846/8b18e404-2219-425b-974d-68c5ccbc21db" alt="Istio Logo"/>
+    <img src="https://github.com/mathesh-me/monitoring-study-guide/assets/144098846/3e864023-ee89-4170-a3b0-3894c93bcd51" alt="Istio Logo"/>
 </p>
 
 ## Resources Used
