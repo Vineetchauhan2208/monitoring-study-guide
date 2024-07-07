@@ -22,6 +22,6 @@ Grafana is an open-source platform for visualizing time series data. In `Grafana
 
 2. **Thresholds**: We can set `thresholds` values in Grafana dashboards to visualize our data in a more sophisticated way. We can set thresholds by going to `Visualization` -> `Thresholds` Section on Right Side -> Click on `Add Threshold` button.
 
-3. **Annotations**: We can add `annotations` to mark some specific points in our data. To add annotations, we have to go to dashboard `Settings` -> `Annotations` -> Click on `Add Variable` button.
+3. **Annotations**: We can add `annotations` to mark some specific points in our data. To add annotations, we have to go to dashboard `Settings` -> `Annotations ` -> Click on `Add Variable` button.
 
 Date of notes: 05/07/2024
