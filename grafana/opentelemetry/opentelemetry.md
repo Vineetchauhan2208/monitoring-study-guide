@@ -1,4 +1,4 @@
-## Opentelemetry Introduction
+## OpenTelemetry Introduction
 
 ***OpenTelemetry is a vendor-neutral, open-source observability framework by the Cloud Native Computing Foundation (CNCF). It can collect traces, metrics, and logs from various sources, process them, and export them to various backends like Prometheus, Jaeger, and Grafana.***
 
@@ -6,7 +6,7 @@
 
 OpenTelemetry has **four stages**in its architecture:
 
-1. **Sources**: The sources are the applications or microservices that generate telemetry data. The sources can be instrumented(Updated) to use OpenTelemetry SDKs to generate telemetry data and then we can use OTel SDK to push these metrics to Opentelemetry Exporters. If we have access to source code, we can instrument the code to use OpenTelemetry SDKs. If we don't have access to source code, we can use Auto-instrumentation mechainsm, it will use the profiler capabilities of our language runtime to instrument the code.
+1. **Sources**: The sources are the applications or microservices that generate telemetry data. The sources can be instrumented(Updated) to use OpenTelemetry SDKs to generate telemetry data and then we can use OTel SDK to push these metrics to OpenTelemetry Exporters. If we have access to source code, we can instrument the code to use OpenTelemetry SDKs. If we don't have access to source code, we can use Auto-instrumentation mechainsm, it will use the profiler capabilities of our language runtime to instrument the code.
 
 2. **OpenTelemetry Exporters**: We can use OpenTelemetry Exporters to export the telemetry data to OpenTelemetry Collectors. OpenTelemetry Exporters includes OLTP exporter, Prometheus exporter, New Relic exporter, etc.
 
