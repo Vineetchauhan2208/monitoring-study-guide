@@ -113,8 +113,8 @@ WantedBy=multi-user.target
 
 ```bash
 sudo chown -R prometheus:prometheus /etc/prometheus/
-sudo chown prometheus:prometheus /etc/prometheus/* # For folders under /etc/prometheus directory
-sudo chown prometheus:prometheus /var/lib/prometheus 
+sudo chown -R prometheus:prometheus /etc/prometheus/* # For folders under /etc/prometheus directory
+sudo chown -R prometheus:prometheus /var/lib/prometheus 
 ```
 
 Now grant access our prometheus user to the folders we created.
