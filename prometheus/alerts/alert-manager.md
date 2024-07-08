@@ -94,4 +94,16 @@ sudo systemctl status alertmanager
 
 - Now we can access our Alertmanager UI at `http://localhost:9093`.
 
+### Updating `prometheus.yml` file to send alerts to Alertmanager
+
+- We need to update the `prometheus.yml` file to send the alerts to the Alertmanager. We have to add the `alerting` section in the `prometheus.yml` file.
+
+```yaml
+# For Alertmanager, We need to add the below configuration at the starting of the file.
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets: ['alertmanager:9093']
+```
+
 Date of notes: 02/07/2024
