@@ -18,7 +18,7 @@ This repository contains the notes I have taken while studying the observability
 | 1 | [Introduction to Observability](montoring-intro.md) | [Link](https://newrelic.com/blog/best-practices/what-is-observability) |
 | 2 | [Prometheus and Grafana Introduction](prometheus-grafana-intro.md) | [Link](https://prometheus.io/docs/introduction/overview/) |
 | 3 | [Prometheus Installation](prometheus/installation/) | [Link](https://prometheus.io/docs/prometheus/latest/installation/) |
-| 4 | [Prometheus Data Model](prometheus/data-model/) | [Link](https://prometheus.io/docs/prometheus/latest/querying/basics/) |
+| 4 | [Prometheus Data Collection](prometheus/data-collection/) | [Link](https://prometheus.io/docs/prometheus/latest/getting_started/) |
 | 5 | [Prometheus Functions and Operators](prometheus/functions-operators/) | [Link](https://prometheus.io/docs/prometheus/latest/querying/functions/) |
 | 6 | [Prometheus Retrieving Metrics](prometheus/retrieving-metrics/) | [Link](https://prometheus.io/docs/prometheus/latest/querying/basics/) |
 | 7 | [Prometheus Alerting](prometheus/alerts/) | [Link](https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/) |
