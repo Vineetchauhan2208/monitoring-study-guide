@@ -44,7 +44,7 @@ This repository contains the notes I have taken while studying the observability
 
 | S.No | Project | Description |
 |------|---------|-------------|
-| - | Will be updated soon | - |
+| 1 | [Setting up a Seamless Monitoring Setup using Prometheus and Grafana](https://github.com/mathesh-me/observability-environment-setup) | Implementing a Comprehensive Monitoring System with Prometheus and Grafana, including Slack alerts setup and securing the Prometheus server |
 
 ## Tools Used
 
