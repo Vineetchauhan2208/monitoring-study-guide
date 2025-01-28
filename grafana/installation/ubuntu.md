@@ -7,9 +7,9 @@
 - Use the below command to install Grafana on Ubuntu:
 
 ```bash
-sudo apt-get install -y adduser libfontconfig1 musl
-wget https://dl.grafana.com/oss/release/grafana_11.1.0_arm64.deb
-sudo dpkg -i grafana_11.1.0_arm64.deb
+wget https://dl.grafana.com/oss/release/grafana_11.1.0_amd64.deb
+sudo dpkg -i grafana_11.1.0_amd64.deb
+
 ```
 The above command will also include Grafana Linux service for us to start Grafana.
 
